@@ -1,7 +1,47 @@
+*:after {
+	    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+html body{
+	/*background: white;*/
+	background: #800080;  /* fallback for old browsers */	
+background: -webkit-linear-gradient(to right, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #ffc0cb, #800080); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+}
+
+
+h1{
+	text-align: center;
+}
+
+html a{
+	color: white;
+}
+
 #channel-icon {
     max-width: 50px;
     max-height: 50px;
     border-radius: 50%;
     border: 1px solid #e1e1e6;
     border-color: black;
+}
+
+.container{
+	padding-top: 100px;
+}
+
+.row{
+	padding-top: 15px;
+	text-align: center;
+	word-break: break-all;
+	/*font-size: relative;*/
+}
+
+@media screen and (max-width: 767px) {
+	h1 {
+		font-size: 30px;
+	}
 }
